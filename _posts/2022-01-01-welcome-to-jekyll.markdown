@@ -40,36 +40,42 @@ date: 2022-09-16 22:04:30 +0900
 
 This is a guide to downgrade Ubuntu system version. I downgrade it from 22.04.5 to 22.04.1. 
 
-First step is to downgrade sources list file to the previous version. You can find the code for each version on ubuntu website(https://releases.ubuntu.com/). The 22.04.5 is focal and the 22.04.1 is jammy. Using the following command to see your version code:
+First step is to downgrade sources list file to the previous version. You can find the code for each version on ubuntu website(https://releases.ubuntu.com/). The 22.04.5 is focal and the 22.04.1 is jammy. Using the following command to see your version code:   
 ```cat /etc/os-release | grep -i version ```   
-It will print the version in you console:
+It will print the version in you console:   
 ```
 VERSION_ID="22.04"
 VERSION="22.04.1 LTS (Jammy Jellyfish)"
 VERSION_CODENAME=jammy
 ```
 
-Then, use following command to change the source list:
-```$ sudo sed -i 's/cosmic/bionic/g' /etc/apt/sources.list ```   
+Then, use following command to change the source list:   
+```$ sudo sed -i 's/cosmic/bionic/g' /etc/apt/sources.list ```      
 
-You can check the result by using following commnad after change:
-```cat /etc/apt/sources.list | grep -v ^# | grep . ``` 
+You can check the result by using following commnad after change:   
+```cat /etc/apt/sources.list | grep -v ^# | grep . ```      
+
+It will print like this:   
+``` 
+deb http://cn.archive.ubuntu.com/ubuntu/ jammy main restricted
+deb http://cn.archive.ubuntu.com/ubuntu/ jammy-updates main restricted
+deb http://cn.archive.ubuntu.com/ubuntu/ jammy universe
+deb http://cn.archive.ubuntu.com/ubuntu/ jammy-updates universe
+deb http://cn.archive.ubuntu.com/ubuntu/ jammy multiverse
+deb http://cn.archive.ubuntu.com/ubuntu/ jammy-updates multiverse
+deb http://cn.archive.ubuntu.com/ubuntu/ jammy-backports main restricted universe multiverse
+deb http://security.ubuntu.com/ubuntu jammy-security main restricted
+deb http://security.ubuntu.com/ubuntu jammy-security universe
+deb http://security.ubuntu.com/ubuntu jammy-security multiverse
+```
+The jammy code is already in the source list.
 
 
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+Then use the following 3 command to downgrade your system:   
+```
+sudo apt update
+sudo apt upgrade
+sudo apt dist-upgrade
+```   
 
-Jekyll also offers powerful support for code snippets:
-
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
-
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
-
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+Reboot your system.
