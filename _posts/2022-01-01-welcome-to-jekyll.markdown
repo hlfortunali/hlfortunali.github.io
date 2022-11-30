@@ -41,7 +41,7 @@ date: 2022-09-16 22:04:30 +0900
 This is a guide to downgrade Ubuntu system version. I downgrade it from 22.04.5 to 22.04.1. 
 
 First step is to downgrade sources list file to the previous version. You can find the code for each version on ubuntu website(https://releases.ubuntu.com/). The 22.04.5 is focal and the 22.04.1 is jammy. Using the following command to see your version code:
-`cat /etc/os-release | grep -i version`
+```cat /etc/os-release | grep -i version ```   
 It will print the version in you console:
 ```
 VERSION_ID="22.04"
@@ -50,10 +50,10 @@ VERSION_CODENAME=jammy
 ```
 
 Then, use following command to change the source list:
-`$ sudo sed -i 's/cosmic/bionic/g' /etc/apt/sources.list `   
+```$ sudo sed -i 's/cosmic/bionic/g' /etc/apt/sources.list ```   
 
 You can check the result by using following commnad after change:
-`cat /etc/apt/sources.list | grep -v ^# | grep . `
+```cat /etc/apt/sources.list | grep -v ^# | grep . ``` 
 
 
 To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
