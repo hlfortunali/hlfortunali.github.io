@@ -1,7 +1,7 @@
 ---
 # multilingual page pair id, this must pair with translations of this page. (This name must be unique)
 lng_pair: id_What_is_this
-title: "Tired!"
+title: "downgrade ubuntu!"
 
 # post specific
 # if not specified, .name will be used from _data/owner/[language].yml
@@ -38,7 +38,23 @@ date: 2022-09-16 22:04:30 +0900
 ---
 <!-- outline-start -->
 
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes.<!-- outline-end --> You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+This is a guide to downgrade Ubuntu system version. I downgrade it from 22.04.5 to 22.04.1. 
+
+First step is to downgrade sources list file to the previous version. You can find the code for each version on ubuntu website(https://releases.ubuntu.com/). The 22.04.5 is focal and the 22.04.1 is jammy. Using the following command to see your version code:
+`cat /etc/os-release | grep -i version`
+It will print the version in you console:
+```
+VERSION_ID="22.04"
+VERSION="22.04.1 LTS (Jammy Jellyfish)"
+VERSION_CODENAME=jammy
+```
+
+Then, use following command to change the source list:
+`$ sudo sed -i 's/cosmic/bionic/g' /etc/apt/sources.list `   
+
+You can check the result by using following commnad after change:
+`cat /etc/apt/sources.list | grep -v ^# | grep . `
+
 
 To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
 
