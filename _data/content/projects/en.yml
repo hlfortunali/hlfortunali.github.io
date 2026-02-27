@@ -22,7 +22,7 @@ page_data:
       project_excerpt: "RTEMS real-time OS for Zynq 7010"
       img: ":project1_thumb.jpg"
       img_title: "Zynq RTEMS"
-      date: "2024-01-01"
+      date: "2022-11-11"
       post: |
         # Zynq_RTEMS
 
@@ -56,7 +56,7 @@ page_data:
       project_excerpt: "ThreadX RTOS with NetX Duo on STM32H7"
       img: ":project2_thumb.jpg"
       img_title: "STM32H7 ThreadX"
-      date: "2024-06-01"
+      date: "2026-02-26"
       post: |
         # STM32H7_ThreadX_NetxDuo
 
