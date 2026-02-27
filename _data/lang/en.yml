@@ -174,8 +174,8 @@ privacy-policy:
 # constants to be replaced for
 constants:
   greetings: Hello
-  welcome: Welcome
-  sample: Sample
+  welcome: Welcome to My Portfolio
+  sample: Embedded Systems Developer
 
 # for contact form
 contact_form:
