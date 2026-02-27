@@ -49,3 +49,37 @@ page_data:
         ## Links
 
         [GitHub Repository](https://github.com/hlfortunali/Zynq_RTEMS)
+
+    # STM32H7 ThreadX NetXDuo Project
+    - type: id_embedded
+      project_name: "STM32H7_ThreadX_NetxDuo"
+      project_excerpt: "ThreadX RTOS with NetX Duo on STM32H7"
+      img: ":project2_thumb.jpg"
+      img_title: "STM32H7 ThreadX"
+      date: "2024-06-01"
+      post: |
+        # STM32H7_ThreadX_NetxDuo
+
+        Azure RTOS ThreadX with NetX Duo network stack implementation for STM32H7 microcontroller.
+
+        ## Description
+
+        This project implements ThreadX real-time operating system with NetX Duo TCP/IP stack on STM32H7 series microcontrollers.
+
+        ## Features
+
+        - ThreadX RTOS configuration and porting
+        - NetX Duo TCP/IP stack integration
+        - Ethernet driver implementation
+        - Network application examples
+
+        ## Technologies
+
+        - Azure ThreadX RTOS
+        - NetX Duo TCP/IP Stack
+        - STM32H7 Series
+        - C / CubeMX
+
+        ## Links
+
+        [GitHub Repository](https://github.com/hlfortunali/STM32H7_ThreadX_NetxDuo)
