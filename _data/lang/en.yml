@@ -173,7 +173,7 @@ privacy-policy:
 
 # constants to be replaced for
 constants:
-  greetings: Hello
+  greetings: Hello, I'm LI HENG
   welcome: Welcome to My Portfolio
   sample: Embedded Systems Developer
 
