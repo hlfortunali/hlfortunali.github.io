@@ -38,13 +38,19 @@ img: ":about.jpg"
 
 ## About Me
 
-Hello! I'm **LI HENG**, a software developer passionate about technology and innovation.
+Hello! I'm **LI HENG**, an embedded systems developer passionate about real-time operating systems and FPGA development.
 
-### My Skills
+### My Focus Areas
 
-- Software Development
-- Web Development
-- Problem Solving
+- **Embedded Systems**: Development and debugging on ARM Cortex-M and Cortex-A platforms
+- **RTOS**: RTEMS, ThreadX, FreeRTOS porting and application development
+- **FPGA**: Xilinx Zynq 7000 series development
+- **Networking**: TCP/IP stack implementation on embedded platforms
+
+### My Projects
+
+- **Zynq_RTEMS**: RTEMS real-time OS porting for Xilinx Zynq 7010
+- **STM32H7_ThreadX_NetxDuo**: ThreadX RTOS with NetX Duo network stack on STM32H7
 
 ### Contact
 
