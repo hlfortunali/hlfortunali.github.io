@@ -25,11 +25,11 @@ default_lng: en
 # to prevent adding languages with no folder
 # single language disables language switch
 # language order is linked to array order
-language_switch_lang_list: [en, ja, pt, fr, zh, ko, tr, es]
+language_switch_lang_list: [en]
 
 # if the opened page is not in the user's language list,
 # suggest language(s) matching with the one(s) in browser language list and user language list.
-language_translation_offer_box: true
+language_translation_offer_box: false
 
 # Disable 3rd party translation suggestion for pages with translation.
 language_translation_offer_disable_ext_translation: true
