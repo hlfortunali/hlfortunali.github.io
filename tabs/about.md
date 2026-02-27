@@ -38,19 +38,31 @@ img: ":about.jpg"
 
 ## About Me
 
-Hello! I'm **LI HENG**, an embedded systems developer passionate about real-time operating systems and FPGA development.
+Hello! I'm **LI HENG**, an embedded software architect with 11 years of experience in embedded system development.
 
-### My Focus Areas
+### Work Experience
 
-- **Embedded Systems**: Development and debugging on ARM Cortex-M and Cortex-A platforms
-- **RTOS**: RTEMS, ThreadX, FreeRTOS porting and application development
-- **FPGA**: Xilinx Zynq 7000 series development
-- **Networking**: TCP/IP stack implementation on embedded platforms
+**Embedded Software Architect & Team Lead** | Zhejiang University Advanced Research Institute (2020 - Present)
+- Led an 8-person embedded software/hardware team
+- Satellite attitude and orbit control system software refactoring (TI C6747 DSP)
+- RTEMS real-time OS porting on NXP RT1176, improved control frequency from 1Hz to 5Hz
+- Hardware-in-the-loop simulation system design
 
-### My Projects
+**Embedded Software Engineer & Architect** | Zhejiang Shanzhu 3D Technology (2016 - 2020)
+- Industrial FDM 3D printer system architecture (Cortex-M4/M7, DSP)
+- Distributed control system based on CAN bus and FreeRTOS
+- 4-axis motion control system with CANopen protocol
 
-- **Zynq_RTEMS**: RTEMS real-time OS porting for Xilinx Zynq 7010
-- **STM32H7_ThreadX_NetxDuo**: ThreadX RTOS with NetX Duo network stack on STM32H7
+**Embedded Software Engineer** | Hangzhou Newcontrol (2014 - 2016)
+- Smart home gateway development (Zigbee, WiFi, Bluetooth)
+- CAN-based smart building lighting control system
+
+### Skills
+
+- **RTOS**: RTEMS, FreeRTOS, ThreadX
+- **Platforms**: Cortex-M0/M4/M7 (STM32, NXP RT series), TI C2000/C6000 DSP, Xilinx Zynq 7000/MPSoC
+- **Protocols**: UART, SPI, I2C, CAN, CANOpen, TCP/IP, LwIP
+- **Motor Control**: PMSM, BLDC, stepper motor, PID control, Kalman filter
 
 ### Contact
 
