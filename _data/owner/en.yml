@@ -48,16 +48,8 @@ meta_common_description: "Your meta description."
 # the order of the items will be shown as here.
 # comment to remove any contact item
 contacts:
-  #- github: ""
-  #- email: ""
-  #- linkedin: ""
-  #- twitter: ""
-  #- mastodon: ""
-  #- instagram: ""
-  #- youtube: ""
-  #- facebook: ""
-# to add more, check the _data/const/contact.yml file
-#  - your_new_contact: ""
+  - github: "https://github.com/hlfortunali"
+  - linkedin: "https://www.linkedin.com/in/heng-li-21699a64/"
 
 # make sure one of comment engine is enabled in _data/conf/posts.yml file
 comments:
