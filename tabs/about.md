@@ -36,9 +36,16 @@ img: ":about.jpg"
 #published: false
 ---
 
-{%- comment -%} Please delete below and place your page content here {%- endcomment -%}
+## About Me
 
-{%- include util/auto-content-generator.liquid -%}
-{{ website_info_text_first }}
+Hello! I'm **LI HENG**, a software developer passionate about technology and innovation.
 
-{{ website_info_text_second }}
+### My Skills
+
+- Software Development
+- Web Development
+- Problem Solving
+
+### Contact
+
+Feel free to reach out through the contact form or social media links.
