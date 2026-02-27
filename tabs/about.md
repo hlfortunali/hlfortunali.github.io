@@ -40,29 +40,40 @@ img: ":about.jpg"
 
 Hello! I'm **LI HENG**, an embedded software architect with 11 years of experience in embedded system development.
 
-### Work Experience
+### Technical Journey
 
-**Embedded Software Architect & Team Lead** | Zhejiang University Advanced Research Institute (2020 - Present)
-- Led an 8-person embedded software/hardware team
-- Satellite attitude and orbit control system software refactoring (TI C6747 DSP)
-- RTEMS real-time OS porting on NXP RT1176, improved control frequency from 1Hz to 5Hz
-- Hardware-in-the-loop simulation system design
+My career has been focused on embedded software development, specializing in real-time operating systems, motor control, and complex system architecture. From industrial control systems to satellite attitude control, I've been dedicated to solving challenging technical problems and delivering reliable embedded solutions.
 
-**Embedded Software Engineer & Architect** | Zhejiang Shanzhu 3D Technology (2016 - 2020)
-- Industrial FDM 3D printer system architecture (Cortex-M4/M7, DSP)
-- Distributed control system based on CAN bus and FreeRTOS
-- 4-axis motion control system with CANopen protocol
+### Core Expertise
 
-**Embedded Software Engineer** | Hangzhou Newcontrol (2014 - 2016)
-- Smart home gateway development (Zigbee, WiFi, Bluetooth)
-- CAN-based smart building lighting control system
+**Real-Time Operating Systems**
+- Deep experience with RTEMS, FreeRTOS, and ThreadX
+- LwIP network stack porting and optimization
+- Dynamic software update mechanisms
 
-### Skills
+**Embedded Platforms**
+- Cortex-M0/M4/M7 (STM32, NXP RT series)
+- TI C2000/C6000 DSP family  
+- Xilinx Zynq 7000/MPSoC
 
-- **RTOS**: RTEMS, FreeRTOS, ThreadX
-- **Platforms**: Cortex-M0/M4/M7 (STM32, NXP RT series), TI C2000/C6000 DSP, Xilinx Zynq 7000/MPSoC
-- **Protocols**: UART, SPI, I2C, CAN, CANOpen, TCP/IP, LwIP
-- **Motor Control**: PMSM, BLDC, stepper motor, PID control, Kalman filter
+**Communication Protocols**
+- UART, SPI, I2C, CAN, CANOpen
+- TCP/IP, LwIP
+
+**Motor & Control Systems**
+- PMSM, BLDC, stepper motor control
+- PID control (position, speed, current loops)
+- Kalman filter and digital filter design
+
+### Featured Projects
+
+Throughout my career, I've led and participated in several challenging projects:
+
+- **Satellite Attitude Control**: Refactored satellite control system on TI C6747 DSP, reduced code by 16% (~11000 lines)
+- **RTEMS Porting**: Ported RTEMS to NXP RT1176 with LwIP, improved control frequency from 1Hz to 5Hz
+- **Industrial Control**: Built 7-MCU distributed system using CAN bus and FreeRTOS for 3D printers
+- **Hardware-in-the-Loop Simulation**: Designed simulation platform achieving 100% test coverage
+- **Smart Building**: Developed CAN-based lighting control with 15% energy savings
 
 ### Contact
 
