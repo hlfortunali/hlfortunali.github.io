@@ -175,7 +175,7 @@ privacy-policy:
 constants:
   greetings: Hello, I'm LI HENG
   welcome: Welcome to My Portfolio
-  sample: Embedded Systems Developer
+  sample:
 
 # for contact form
 contact_form:
