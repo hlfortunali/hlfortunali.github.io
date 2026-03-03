@@ -1,39 +1,39 @@
 ---
 layout: post
-title: "STM32H7 ThreadX NetX Duo 网络移植"
+title: "STM32H7 ThreadX NetX Duo Network Porting"
 date: 2026-02-26 12:00:00 +0000
 categories: ThreadX STM32 NetX_Duo
 ---
 
-# STM32H7 ThreadX NetX Duo 网络移植
+# STM32H7 ThreadX NetX Duo Network Porting
 
-本文介绍如何在 STM32H7 微控制器上移植 Azure RTOS ThreadX 和 NetX Duo 网络协议栈。
+This article introduces how to port Azure RTOS ThreadX and NetX Duo network stack on STM32H7 microcontrollers.
 
-## 硬件平台
+## Hardware Platform
 
 - STM32H743/753
 - Ethernet PHY (LAN8742A)
 
-## 软件组件
+## Software Components
 
 - ThreadX RTOS
 - NetX Duo TCP/IP Stack
-- STM32CubeMX 配置
+- STM32CubeMX Configuration
 
-## 移植步骤
+## Porting Steps
 
-### 1. CubeMX 配置
+### 1. CubeMX Configuration
 
-使用 STM32CubeMX 配置 ETH 外设和 FreeRTOS（或 ThreadX）。
+Use STM32CubeMX to configure the ETH peripheral and FreeRTOS (or ThreadX).
 
-### 2. 添加 NetX Duo
+### 2. Add NetX Duo
 
-在项目中集成 NetX Duo 源码，配置网络参数。
+Integrate NetX Duo source code into the project and configure network parameters.
 
-### 3. 驱动实现
+### 3. Driver Implementation
 
-实现 Ethernet 驱动接口，包括数据收发DMA配置。
+Implement the Ethernet driver interface, including DMA configuration for data transmission and reception.
 
-## 测试结果
+## Test Results
 
-成功实现 TCP/UDP 通信，验证了网络功能正常工作。
+Successfully implemented TCP/UDP communication, verifying proper network functionality.

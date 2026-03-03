@@ -19,3 +19,6 @@ Thumbs.db
 
 # updating Gemfile automatically using github actions
 vendor
+
+# personal resume files
+赵丹简历*

@@ -4,7 +4,7 @@ layout: about
 lng_pair: id_about
 
 # image for page specific usage
-img: ":about.jpg"
+img: ":about.png"
 # publish date (used for seo)
 # if not specified, site.time will be used.
 #date: 2022-03-03 12:32:00 +0000
@@ -36,45 +36,14 @@ img: ":about.jpg"
 #published: false
 ---
 
-## About Me
 
-Hello! I'm **LI HENG**, an embedded software architect with 11 years of experience in embedded system development.
 
-### Technical Journey
+Hello! I’m **LI HENG**, an embedded software architect with 11 years of experience in embedded system development.
 
-My career has been focused on embedded software development, specializing in real-time operating systems, motor control, and complex system architecture. From industrial control systems to satellite attitude control, I've been dedicated to solving challenging technical problems and delivering reliable embedded solutions.
+My expertise spans the full spectrum of embedded engineering—from bare-metal driver implementation to real-time operating system architecture. I have extensive hands-on experience with RTEMS, FreeRTOS, and ThreadX, along with network stack integration using LwIP and NetX Duo. On the hardware side, I work extensively with ARM Cortex-M series (STM32, NXP RT), TI C2000/C6000 DSPs, and Xilinx Zynq FPGA-SoC platforms.
 
-### Core Expertise
+Throughout my career, I’ve delivered impactful solutions across a range of industries. I refactored a satellite attitude control system running on a TI C6747 DSP, eliminating over 11,000 lines of code while significantly improving maintainability. I led the porting of RTEMS with LwIP to the NXP RT1176, increasing the system’s control frequency from 1Hz to 5Hz. In industrial automation, I architected a 7-MCU distributed control system for 3D printers using CAN bus and FreeRTOS. I also developed a hardware-in-the-loop simulation platform that achieved 100% test coverage, and designed a CAN-based smart lighting system that reduced energy consumption by 15%.
 
-**Real-Time Operating Systems**
-- Deep experience with RTEMS, FreeRTOS, and ThreadX
-- LwIP network stack porting and optimization
-- Dynamic software update mechanisms
+I’m passionate about building reliable, high-performance embedded systems and tackling complex technical challenges. Whether it's optimizing real-time performance or integrating mixed-criticality subsystems, I thrive on solving problems that matter.
 
-**Embedded Platforms**
-- Cortex-M0/M4/M7 (STM32, NXP RT series)
-- TI C2000/C6000 DSP family  
-- Xilinx Zynq 7000/MPSoC
-
-**Communication Protocols**
-- UART, SPI, I2C, CAN, CANOpen
-- TCP/IP, LwIP
-
-**Motor & Control Systems**
-- PMSM, BLDC, stepper motor control
-- PID control (position, speed, current loops)
-- Kalman filter and digital filter design
-
-### Featured Projects
-
-Throughout my career, I've led and participated in several challenging projects:
-
-- **Satellite Attitude Control**: Refactored satellite control system on TI C6747 DSP, reduced code by 16% (~11000 lines)
-- **RTEMS Porting**: Ported RTEMS to NXP RT1176 with LwIP, improved control frequency from 1Hz to 5Hz
-- **Industrial Control**: Built 7-MCU distributed system using CAN bus and FreeRTOS for 3D printers
-- **Hardware-in-the-Loop Simulation**: Designed simulation platform achieving 100% test coverage
-- **Smart Building**: Developed CAN-based lighting control with 15% energy savings
-
-### Contact
-
-Feel free to reach out through the contact form or social media links.
+Feel free to reach out if you’d like to discuss embedded development or explore opportunities for collaboration.
